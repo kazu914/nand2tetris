@@ -1,0 +1,19 @@
+/**
+  * 1-bit zero and nagete
+  */
+
+CHIP Zn {
+    IN in, z, n;
+    OUT out;
+
+    PARTS:
+    Not(in=in, out=notIn);
+    And(a=notIn, b=n, out=comp1);
+
+    Xor(a=z, b=n, out=xorZN);
+    Not(in=xorZN, out=notXZN);
+    And(a=in, b=notXZN, out=comp2);
+
+    Or(a=comp1, b=comp2, out=out);
+    
+}

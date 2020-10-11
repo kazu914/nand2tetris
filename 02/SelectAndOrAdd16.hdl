@@ -1,0 +1,54 @@
+/**
+* 16-bit And if f ==1 else Add
+  */
+
+CHIP SelectAndOrAdd16 {
+    IN a[16], b[16], f;
+    OUT out[16];
+
+    PARTS:
+    And16(a=a, b=b, out=AandB);
+    Add16(a=a, b=b, out=AaddB);
+
+    Not(in=f, out=notF);
+
+
+    And16(a=AaddB, b[0]=f,
+                   b[1]=f,
+                   b[2]=f,
+                   b[3]=f,
+                   b[4]=f,
+                   b[5]=f,
+                   b[6]=f,
+                   b[7]=f,
+                   b[8]=f,
+                   b[9]=f,
+                   b[10]=f,
+                   b[11]=f,
+                   b[12]=f,
+                   b[13]=f,
+                   b[14]=f,
+                   b[15]=f,
+                  out=comp1);
+
+    And16(a=AandB, b[0]=notF,
+                   b[1]=notF,
+                   b[2]=notF,
+                   b[3]=notF,
+                   b[4]=notF,
+                   b[5]=notF,
+                   b[6]=notF,
+                   b[7]=notF,
+                   b[8]=notF,
+                   b[9]=notF,
+                   b[10]=notF,
+                   b[11]=notF,
+                   b[12]=notF,
+                   b[13]=notF,
+                   b[14]=notF,
+                   b[15]=notF,
+                  out=comp2);
+
+    Or16(a=comp1, b=comp2, out=out);
+    
+}

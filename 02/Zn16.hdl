@@ -1,0 +1,27 @@
+/**
+  * 1-bit zero and nagete
+  */
+
+CHIP Zn16 {
+    IN in[16], z, n;
+    OUT out[16];
+
+    PARTS:
+    Zn(in=in[0], z=z, n=n, out=out[0]);
+    Zn(in=in[1], z=z, n=n, out=out[1]);
+    Zn(in=in[2], z=z, n=n, out=out[2]);
+    Zn(in=in[3], z=z, n=n, out=out[3]);
+    Zn(in=in[4], z=z, n=n, out=out[4]);
+    Zn(in=in[5], z=z, n=n, out=out[5]);
+    Zn(in=in[6], z=z, n=n, out=out[6]);
+    Zn(in=in[7], z=z, n=n, out=out[7]);
+    Zn(in=in[8], z=z, n=n, out=out[8]);
+    Zn(in=in[9], z=z, n=n, out=out[9]);
+    Zn(in=in[10], z=z, n=n, out=out[10]);
+    Zn(in=in[11], z=z, n=n, out=out[11]);
+    Zn(in=in[12], z=z, n=n, out=out[12]);
+    Zn(in=in[13], z=z, n=n, out=out[13]);
+    Zn(in=in[14], z=z, n=n, out=out[14]);
+    Zn(in=in[15], z=z, n=n, out=out[15]);
+    
+}
