@@ -30,7 +30,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="131.3611"
+     inkscape:cx="-648.6389"
      inkscape:cy="791.16708"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -111,17 +111,22 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;line-height:1.25;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20296508"
-       x="-103.87129"
-       y="-20.886816"
+       x="-103.11534"
+       y="-38.27372"
        id="text857-2"><tspan
          sodipodi:role="line"
-         id="tspan855-8"
-         x="-103.87129"
-         y="-20.886816"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508">d1の値により</tspan><tspan
+         x="-103.11534"
+         y="-38.27372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508"
+         id="tspan842">A命令または</tspan><tspan
          sodipodi:role="line"
-         x="-103.87129"
-         y="-4.6496096"
+         x="-103.11534"
+         y="-22.036514"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508"
+         id="tspan848">d1の値により</tspan><tspan
+         sodipodi:role="line"
+         x="-103.11534"
+         y="-5.7993078"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508"
          id="tspan859-3">保存するかどうか</tspan></text>
     <text
@@ -160,16 +165,21 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;line-height:1.25;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20296508"
        x="66.032356"
-       y="-120.46886"
+       y="-134.75627"
        id="text857-2-4"><tspan
          sodipodi:role="line"
-         id="tspan855-8-9"
          x="66.032356"
-         y="-120.46886"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508">d2の値により</tspan><tspan
+         y="-134.75627"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508"
+         id="tspan852">C命令かつ</tspan><tspan
          sodipodi:role="line"
          x="66.032356"
-         y="-104.23165"
+         y="-118.51907"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508"
+         id="tspan850">d2の値により</tspan><tspan
+         sodipodi:role="line"
+         x="66.032356"
+         y="-102.28187"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.98976517px;font-family:'アプリ明朝';-inkscape-font-specification:'アプリ明朝, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.20296508"
          id="tspan859-3-9">保存するかどうか</tspan></text>
     <text

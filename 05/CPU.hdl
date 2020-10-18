@@ -39,5 +39,34 @@ CHIP CPU {
         pc[15];          // address of next instruction
 
     PARTS:
-    // Put your code here:
+    // 命令のデコード
+    Decode(instruction=instruction,a=a,c1=c1,c2=c2,c3=c3,c4=c4,c5=c5,c6=c6,d1=d1,d2=d2,d3=writeM,j1=j1,j2=j2,j3=j3);
+
+    // A命令ならinstruction，C命令ならM
+    Mux16(a=instruction,b=outMem, sel=instruction[15], out=inA);
+
+    // A命令ならAレジスタに保存
+    // C命令なら，d1ビットが立っていれば保存
+    Not(in=instruction[15], out=isA);
+    Or(a=d1, b=isA, out=loadA);
+    ARegister(in=inA, load=loadA, out=A, out[0..14]=addressM);
+
+    // C命令かつ，d2ビットが立っていればDレジスタに保存
+    And(a=d2, b=instruction[15], out=loadD);
+    DRegister(in=outMem, load=loadD, out=D);
+
+    // C命令のaによりアドレスかアドレスのデータか
+    Mux16(a=A, b=inM, sel=a, out=AM);
+
+    ALU(x=D, y=AM, zx=c1, nx=c2, zy=c3, ny=c4, f=c5, no=c6, out=outM,out=outMem, zr=zr, ng=ng);
+
+    // A命令ならジャンプしない
+    // C命令ならJumpFlagが立ってれば飛ぶ
+    // ジャンプしないならインクリメント
+    Jumper(j1=j1, j2=j2, j3=j3, zr=zr, ng=ng, out=jumpFlag);
+    And(a=jumpFlag, b=instruction[15], out=jump);
+    Not(in=jump, out=inc);
+    PC(in=A, load=jump, inc=inc, reset=reset, out[0..14]=pc);
 }
+
+
