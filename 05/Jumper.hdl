@@ -1,0 +1,24 @@
+CHIP Jumper {
+    IN j1,j2,j3, zr,ng;
+    OUT out;
+
+    PARTS:
+    Not(in=zr, out=nonZero);
+    Not(in=ng, out=nonNega);
+    And(a=nonZero, b=nonNega, out=ps);
+
+    //j1 => 負ならok
+    And(a=j1, b=ng, out=resultJ1);
+
+    //j2 => 0ならok
+    And(a=j2, b=zr, out=resultJ2);
+
+    //j3 => 正ならok
+    And(a=j3, b=ps, out=resultJ3);
+    
+    //どれか一つでも満たせば良い
+    Or(a=resultJ1, b=resultJ2, out=resultJ12);
+    Or(a=resultJ12, b=resultJ3, out=out);
+    
+
+}

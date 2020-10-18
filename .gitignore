@@ -8,6 +8,10 @@
 !Decode.out
 !Decode.cmp
 
+!Jumper.tst
+!Jumper.out
+!Jumper.cmp
+
 06/*/*.asm
 
 07/*.asm
