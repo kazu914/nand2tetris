@@ -3,6 +3,11 @@
 *.cmp
 *.hack
 
+
+!Decode.tst
+!Decode.out
+!Decode.cmp
+
 06/*/*.asm
 
 07/*.asm
